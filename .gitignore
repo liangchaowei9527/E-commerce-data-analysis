@@ -1,0 +1,15 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large/raw data artifacts
+UserBehavior.csv
+data/processed/analysis_mart.db
+data/processed/user_features.csv
+
+# Local runtime files
+.DS_Store
+Thumbs.db

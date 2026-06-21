@@ -1,0 +1,116 @@
+{
+  "overview": {
+    "total_events": 100150758,
+    "unique_users": 987994,
+    "buy_users": 672404,
+    "avg_events_per_user": 101.36777956141434,
+    "sample_rows": 200000,
+    "pv_events": 89716247,
+    "fav_events": 2888258,
+    "cart_events": 5530446,
+    "buy_events": 2015807,
+    "processed_rows": 100150758,
+    "user_segments": {
+      "低活跃低转化": 329431,
+      "高活跃高转化": 277890,
+      "高活跃低转化": 220059,
+      "低活跃高价值": 160614
+    }
+  },
+  "funnel": {
+    "pv_users": 984114,
+    "fav_users": 389823,
+    "cart_users": 738996,
+    "buy_users": 672404,
+    "pv_to_fav_rate": 0.3938060021501574,
+    "pv_to_cart_rate": 0.7475516047937536,
+    "pv_to_buy_rate": 0.6801173441288306,
+    "cart_to_buy_rate": 0.7186750672534087,
+    "fav_to_buy_rate": 0.7111612193226157
+  },
+  "recommendations": [
+    {
+      "priority": "高影响低难度",
+      "issue": "高流量时段存在明显转化损失",
+      "evidence": "21:00 流量高但购买转化较弱，建议对比 10:00 的承接策略。",
+      "action": "在低转化高流量时段增加限时促单、购物车提醒与推荐位优化。",
+      "impact": "优先提升浏览到购买的短链路转化效率。"
+    },
+    {
+      "priority": "高影响中难度",
+      "issue": "高活跃低转化用户占比偏高",
+      "evidence": "高活跃低转化用户占比约 22.3%，属于重点召回人群。",
+      "action": "对高活跃低转化用户定向发券、加购召回，并优化详情页信息密度。",
+      "impact": "有助于把已有流量转化为订单，提高运营 ROI。"
+    },
+    {
+      "priority": "中影响中难度",
+      "issue": "部分高曝光类目存在高浏览低成交",
+      "evidence": "类目 4756105 曝光高，但浏览转购买率仅 0.63%。",
+      "action": "针对弱转化类目优化价格展示、评价露出和关联推荐策略。",
+      "impact": "改善重点类目的流量承接质量，减少无效曝光。"
+    },
+    {
+      "priority": "中影响低难度",
+      "issue": "加购后未购买仍是关键损失环节",
+      "evidence": "整体加购转购买率为 71.87%，存在后链路流失。",
+      "action": "增加购物车提醒、限时优惠和支付前补贴策略。",
+      "impact": "提升高意向用户的最终成交概率。"
+    }
+  ],
+  "figures": {
+    "behavior_distribution": "D:\\电商数据分析\\figures\\behavior_distribution.png",
+    "hourly_trend": "D:\\电商数据分析\\figures\\hourly_trend.png",
+    "weekday_heatmap": "D:\\电商数据分析\\figures\\weekday_heatmap.png",
+    "category_conversion": "D:\\电商数据分析\\figures\\category_conversion.png",
+    "funnel": "D:\\电商数据分析\\figures\\funnel.png",
+    "segment_distribution": "D:\\电商数据分析\\figures\\segment_distribution.png"
+  },
+  "top_categories": [
+    {
+      "category_id": 4756105,
+      "buy": 28258,
+      "cart": 215146,
+      "fav": 139373,
+      "pv": 4479754,
+      "pv_to_buy_rate": 0.0063079356589669875,
+      "cart_to_buy_rate": 0.13134336682996664
+    },
+    {
+      "category_id": 2355072,
+      "buy": 12423,
+      "cart": 121867,
+      "fav": 87241,
+      "pv": 3153405,
+      "pv_to_buy_rate": 0.003939551056714884,
+      "cart_to_buy_rate": 0.10193899907275965
+    },
+    {
+      "category_id": 4145813,
+      "buy": 31658,
+      "cart": 174419,
+      "fav": 110666,
+      "pv": 3152237,
+      "pv_to_buy_rate": 0.01004302658715065,
+      "cart_to_buy_rate": 0.18150545525430142
+    },
+    {
+      "category_id": 3607361,
+      "buy": 12721,
+      "cart": 109102,
+      "fav": 71334,
+      "pv": 2977553,
+      "pv_to_buy_rate": 0.004272300106832691,
+      "cart_to_buy_rate": 0.11659731260655166
+    },
+    {
+      "category_id": 982926,
+      "buy": 24823,
+      "cart": 153906,
+      "fav": 89137,
+      "pv": 2800011,
+      "pv_to_buy_rate": 0.008865322314805192,
+      "cart_to_buy_rate": 0.16128675945057372
+    }
+  ]
+}
